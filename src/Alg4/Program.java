@@ -1,36 +1,37 @@
 package Alg4;
 
 public class Program {
+    String ones = "";
+    String zeroes = "";
 
     int binaryOnes(int n) {
-        int count1 = 0;
-        int binDigit = 0;
-        while (n > 0 ) {
-            binDigit = n % 2;
-            if (binDigit == 1) {
-                count1++;
+        int count = 0;
+        while (n > 0) {
+            if (n % 2 == 1) {
+                count++;
             }
+            n = n / 2;
         }
-        return count1;
+        return count;
     }
 
     int binaryZeros(int n) {
-        int count0 = 0;
-        int binDigitTemp = 0;
-        while (n > 0) {
-            binDigitTemp = n % 2;
-            if (binDigitTemp == 0) {
-                count0++;
+        for (int i = 0; i < 5; i++) {
+            if (n % 2 == 0) {
+                zeroes = zeroes + "1";
+                n = n / 2;
             }
         }
-        return count0;
+        System.out.println(zeroes.length());
+        return zeroes.length();
     }
 
-    public static void main(String[] args){
-        int number = 25;
+    public static void main(String[] args) {
+        int number = 744 ;
 
         Program p = new Program();
-        p.binaryOnes(number);
+        System.out.println(p.binaryOnes(number));
+        //p.binaryZeros(number);
     }
 
 }

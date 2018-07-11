@@ -3,15 +3,23 @@ package Alg2;
 public class Exe1 {
 
     public void shiftLeft(int[] array) {
-        int[] newArray = new int[array.length];
-
-        for (int i = array.length - 1; i > 0; i--) {
-            newArray[i - 1] = array[i];
+        int t = array[0];
+        for (int i = 1; i < array.length; i++) {
+            array[i - 1] = array[i];
         }
-
-        newArray[array.length - 1] = array[0];
+        array[array.length-1] = t;
     }
-}
+
+    public  void shiftLeft2(int[] array) {
+
+            int a = array[0];
+            int i;
+            for (i = 0; i < array.length - 1; i++)
+                array[i] = array[i + 1];
+            array[i] = a;
+        }
+    }
+
 
 
 //

@@ -2,24 +2,28 @@ package Alg3;
 
 public class Exe {
 
-    int sum = 0;
+    int sumDigit = 0;
+    int sumFinal = 0;
     int finalSum = 0;
 
     int digitSum(int n) {
         while (n > 0) {
-            sum += n % 10;
+            sumDigit += n % 10;
             n = n / 10;
         }
-        return sum;
+        return sumDigit;
     }
 
     int finalDigitSum(int n) {
-        digitSum(n);  //21
-        while (sum >= 10) {
-            finalSum += sum % 10; //1
-            sum = sum / 10;  //2
+        while (n > 0) {
+            sumFinal += n % 10;
+            n = n / 10;
         }
-        return finalSum+sum;
+        while (sumFinal >= 10) {
+            finalSum += sumFinal % 10; //1
+            sumFinal = sumFinal / 10;  //2
+        }
+        return finalSum+sumFinal;
     }
 
     public static void main(String[] args){
