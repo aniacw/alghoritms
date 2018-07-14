@@ -11,6 +11,7 @@ public class Exe {
         int[] combined = new int[a1.length + a2.length];
         int shorterLen;
         int[] longerArr;
+
         if (a1.length > a2.length){
             shorterLen = a2.length;
             longerArr = a1;
@@ -25,11 +26,13 @@ public class Exe {
 
         int ia;
         int ic = 0;
+
         for (ia = 0; ia < shorterLen; ++ia) {
             combined[ic] = a1[ia];
             combined[ic + 1] = a2[ia];
             ic += 2;
         }
+
         for (; ia < longerArr.length; ++ia){
             combined[ic] = longerArr[ia];
             ++ic;

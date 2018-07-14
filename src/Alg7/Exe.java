@@ -28,22 +28,39 @@ public class Exe {
         }
     }
 
+    static void drawRectangle(int x, int y) {
+        int spaces = x - 2;
+
+        for (int i = 1; i <= y; i++) {
+
+            for (int j = 1; j <= x; j++) {
+                System.out.print('*');
+            }
+
+            System.out.println();
+        }
+    }
+
+    static void drawX(int size) {
+
+    }
+
     public static void main(String[] args) {
         drawFilledRectangle(4, 5);
         drawTriangle(5);
     }
 }
 //    Stwórz klasê ConsoleDrawer i dodaj w niej metody:
+//   void drawX(int size)
+//        gdzie size to wysokoœæ i szerokoœæ
 //
-//void drawTriangle(int height)
-//        gdzie height to wysokoœæ trójk¹ta
+//        Przyk³ad: size: 5
 //
-//        Przyk³ad: height: 4
-//
-//           #
-//          ###
-//         #####
-//        #######
+//        #   #
+//         # #
+//          #
+//         # #
+//        #   #
 
 //        void drawRectangle(int x, int y)
 //        gdzie x, y to rozmiary prostok¹ta
@@ -53,15 +70,6 @@ public class Exe {
 //        ####
 //        #  #
 //        ####
-//
-//        void drawFilledRectangle(int x, int y)
-//        gdzie x, y to rozmiary prostok¹ta
-//
-//        Przyk³ad: x:6, y:3
-//
-//        ######
-//        ######
-//        ######
 //
 //
 //
@@ -81,13 +89,4 @@ public class Exe {
 //        #######
 //        #########
 //
-//        void drawX(int size)
-//        gdzie size to wysokoœæ i szerokoœæ
 //
-//        Przyk³ad: size: 5
-//
-//        #   #
-//         # #
-//          #
-//         # #
-//        #   #
