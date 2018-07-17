@@ -1,4 +1,4 @@
-package Alg5;
+package Fibonacci;
 
 public class Program {
 

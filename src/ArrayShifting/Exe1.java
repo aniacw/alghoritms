@@ -1,4 +1,4 @@
-package Alg2;
+package ArrayShifting;
 
 public class Exe1 {
 

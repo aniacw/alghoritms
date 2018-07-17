@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8a0625-90d9-4c64-8a0e-4decf0e5b652" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/Alg7/Exe.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/Alg7/Exe.class" />
       <change beforePath="$PROJECT_DIR$/out/production/alghoritms/Alg8/Exe.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/Alg8/Exe.class" />
-      <change beforePath="$PROJECT_DIR$/src/Alg7/Exe.java" afterPath="$PROJECT_DIR$/src/Alg7/Exe.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/Sort/Sort.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/Sort/Sort.class" />
+      <change beforePath="$PROJECT_DIR$/src/Alg2/Exe1.java" afterPath="$PROJECT_DIR$/src/ArrayShifting/Exe1.java" />
+      <change beforePath="$PROJECT_DIR$/src/Alg2/Program.java" afterPath="$PROJECT_DIR$/src/ArrayShifting/Program.java" />
+      <change beforePath="$PROJECT_DIR$/src/Alg3/Program.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Alg5/Program.java" afterPath="$PROJECT_DIR$/src/Fibonacci/Program.java" />
+      <change beforePath="$PROJECT_DIR$/src/Alg7/Exe.java" afterPath="$PROJECT_DIR$/src/Drawing/Exe.java" />
       <change beforePath="$PROJECT_DIR$/src/Alg8/Exe.java" afterPath="$PROJECT_DIR$/src/Alg8/Exe.java" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/Sort.java" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="421">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Fibonacci/Program.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -72,9 +86,12 @@
         <option value="$PROJECT_DIR$/src/Alg2/Program.java" />
         <option value="$PROJECT_DIR$/src/Alg2/Exe1.java" />
         <option value="$PROJECT_DIR$/src/Alg5/Program.java" />
-        <option value="$PROJECT_DIR$/src/Alg8/Exe.java" />
         <option value="$PROJECT_DIR$/src/Alg7/Exe.java" />
         <option value="$PROJECT_DIR$/src/Sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/Alg8/Exe.java" />
+        <option value="$PROJECT_DIR$/src/Fibonacci/Program.java" />
+        <option value="$PROJECT_DIR$/src/Drawing/Exe.java" />
+        <option value="$PROJECT_DIR$/src/ArrayShifting/Program.java" />
       </list>
     </option>
   </component>
@@ -110,6 +127,8 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,12 +151,6 @@
               <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
               <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Alg2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Alg3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -150,19 +163,7 @@
               <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
               <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Alg5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Alg6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Alg7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
@@ -173,14 +174,36 @@
             <path>
               <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
               <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayShifting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Drawing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Fibonacci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sort">
+  <component name="RunManager" selected="Application.Exe">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -217,25 +240,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Alg6.Exe" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alghoritms" />
-      <envs />
-    </configuration>
-    <configuration name="Exe (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Alg7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Alg7.Exe" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -266,14 +270,33 @@
       <module name="alghoritms" />
       <envs />
     </configuration>
-    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Exe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Alg2.*" />
+          <option name="PATTERN" value="Drawing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Alg2.Program" />
+      <option name="MAIN_CLASS_NAME" value="Drawing.Exe" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alghoritms" />
+      <envs />
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArrayShifting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ArrayShifting.Program" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -387,8 +410,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Exe" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Exe" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sort" />
         <item index="2" class="java.lang.String" itemvalue="Application.Program (1)" />
         <item index="3" class="java.lang.String" itemvalue="Application.Exe (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.Exe (2)" />
@@ -446,7 +469,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.289282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -478,48 +501,36 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Alg8/Exe.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Alg8/Exe.java</url>
-          <line>105</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Alg7/Exe.java</url>
+          <url>file://$PROJECT_DIR$/src/Drawing/Exe.java</url>
           <line>50</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Alg7/Exe.java</url>
+          <url>file://$PROJECT_DIR$/src/Drawing/Exe.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sort/Sort.java</url>
-          <line>15</line>
+          <line>52</line>
           <properties />
-          <option name="timeStamp" value="61" />
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sort/Sort.java</url>
-          <line>14</line>
+          <line>53</line>
           <properties />
-          <option name="timeStamp" value="62" />
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="69" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Alg7/Exe.java">
+    <entry file="file://$PROJECT_DIR$/src/Drawing/Exe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -536,22 +547,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#raiseToPower#0;class#Exe#0" expanded="false" />
-            <element signature="method#divByA#0;class#Exe#0" expanded="false" />
-            <element signature="method#isOdd#0;class#Exe#0" expanded="false" />
-            <element signature="e#2998#2999#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
+            <element signature="e#2556#2557#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg5/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#1098#1099#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -561,16 +569,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#raiseToPower#0;class#Exe#0" expanded="false" />
-            <element signature="method#divByA#0;class#Exe#0" expanded="false" />
-            <element signature="method#isOdd#0;class#Exe#0" expanded="false" />
-            <element signature="e#2998#2999#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
+            <element signature="e#2556#2557#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -578,7 +583,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -596,7 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
@@ -604,13 +609,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg5/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
-            <element signature="e#1098#1099#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -625,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -649,7 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg7/Exe.java">
+    <entry file="file://$PROJECT_DIR$/src/Drawing/Exe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
@@ -661,7 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -669,7 +674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
@@ -677,13 +682,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg5/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#1098#1099#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -704,7 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
@@ -736,7 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -744,7 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -752,7 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -760,7 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -768,7 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -776,7 +781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -784,7 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -792,7 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -800,7 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -808,7 +813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -883,15 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg3/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Exe1.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="40" column="53" lean-forward="false" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
@@ -899,38 +896,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg2/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/Alg1/Coin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg3/Exe.java">
+    <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="421">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg5/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/Drawing/Exe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="22">
+          <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
           <folding>
-            <element signature="e#1098#1099#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
+            <element signature="method#drawFilledRectangle#0;class#Exe#0" expanded="false" />
+            <element signature="method#drawRectangle#0;class#Exe#0" expanded="false" />
+            <element signature="method#drawChristmasTree#0;class#Exe#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg4/Program.java">
+    <entry file="file://$PROJECT_DIR$/src/Alg8/Exe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="268">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#2556#2557#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -944,44 +945,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg8/Exe.java">
+    <entry file="file://$PROJECT_DIR$/src/Alg3/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="118" column="29" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="118" selection-end-column="29" />
-          <folding>
-            <element signature="method#raiseToPower#0;class#Exe#0" expanded="false" />
-            <element signature="method#divByA#0;class#Exe#0" expanded="false" />
-            <element signature="method#isOdd#0;class#Exe#0" expanded="false" />
-            <element signature="e#2998#2999#0" expanded="true" />
-            <element signature="e#3031#3032#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg1/Coin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="44">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alg7/Exe.java">
+    <entry file="file://$PROJECT_DIR$/src/Alg3/Exe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="100" column="13" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
-          <folding>
-            <element signature="method#drawFilledRectangle#0;class#Exe#0" expanded="false" />
-            <element signature="method#drawRectangle#0;class#Exe#0" expanded="false" />
-            <element signature="method#drawChristmasTree#0;class#Exe#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
+    <entry file="file://$PROJECT_DIR$/src/Alg4/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>

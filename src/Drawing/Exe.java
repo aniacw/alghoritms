@@ -1,4 +1,4 @@
-package Alg7;
+package Drawing;
 
 public class Exe {
 
