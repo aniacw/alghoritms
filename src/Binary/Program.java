@@ -1,10 +1,8 @@
-package Alg4;
+package Binary;
 
 public class Program {
-    String ones = "";
-    String zeroes = "";
 
-    int binaryOnes(int n) {
+    public int binaryOnes(int n) {
         int count = 0;
         while (n > 0) {
             if (n % 2 == 1) {
@@ -15,19 +13,19 @@ public class Program {
         return count;
     }
 
-    int binaryZeros(int n) {
-        for (int i = 0; i < 5; i++) {
+    public int binaryZeros(int n) {
+        int count = 0;
+        while (n > 0) {
             if (n % 2 == 0) {
-                zeroes = zeroes + "1";
-                n = n / 2;
+                count++;
             }
+            n = n / 2;
         }
-        System.out.println(zeroes.length());
-        return zeroes.length();
+        return count;
     }
 
     public static void main(String[] args) {
-        int number = 744 ;
+        int number = 744;
 
         Program p = new Program();
         System.out.println(p.binaryOnes(number));

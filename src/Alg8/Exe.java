@@ -2,14 +2,14 @@ package Alg8;
 
 public class Exe {
 
-    static void raiseToPower(int a, int b) {
+    public static void raiseToPower(int a, int b) {
 
         for (int n = a; n <= b; n++) {
             System.out.println(n * n);
         }
     }
 
-    static void divByA(int a, int b) {
+    public static void divByA(int a, int b) {
 
         for (int n = a; n <= b; n++) {
             if (n % a == 0) {
@@ -18,7 +18,7 @@ public class Exe {
         }
     }
 
-    static void isPrimary(int a, int b) {
+    public static void isPrimary(int a, int b) {
         int primary = 0;
 
         for (int n = a; n <= b; n++) {
@@ -31,7 +31,7 @@ public class Exe {
         }
     }
 
-    static void isOdd(int a, int b) {
+    public static void isOdd(int a, int b) {
 
         for (int n = a; n <= b; n++) {
             if (n % 2 == 1)
@@ -39,7 +39,7 @@ public class Exe {
         }
     }
 
-    static void fib(int a, int b) {
+    public static void fib(int a, int b) {
         int prev1 = 0;
 
         for (int n = a; n <= b; n++) {
@@ -71,7 +71,7 @@ public class Exe {
         }
     }
 
-    static void sumNumbers(int a, int b) {
+    public static void sumNumbers(int a, int b) {
         int sum = 0;
         for (int n = a; n <= b; n++) {
             sum += n;
@@ -79,7 +79,7 @@ public class Exe {
         System.out.println(sum);
     }
 
-    static void sumDigits(int a, int b) {
+    public static void sumDigits(int a, int b) {
         int sum = 0;
 
         for (int n = a; n <= b; n++) {

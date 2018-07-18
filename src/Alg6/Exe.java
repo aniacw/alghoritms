@@ -4,15 +4,13 @@ import java.util.Arrays;
 
 public class Exe {
 
-    int a1Index = 0;
-    int a2Index = 0;
 
-    static int[] interlace(int[] a1, int[] a2) {
+    public static int[] interlace(int[] a1, int[] a2) {
         int[] combined = new int[a1.length + a2.length];
         int shorterLen;
         int[] longerArr;
 
-        if (a1.length > a2.length){
+        if (a1.length > a2.length) {
             shorterLen = a2.length;
             longerArr = a1;
 //            int[] t = a2;
@@ -33,7 +31,7 @@ public class Exe {
             ic += 2;
         }
 
-        for (; ia < longerArr.length; ++ia){
+        for (; ia < longerArr.length; ++ia) {
             combined[ic] = longerArr[ia];
             ++ic;
         }
@@ -41,7 +39,7 @@ public class Exe {
     }
 
     public static void main(String[] args) {
-        int[] a1 = new int[]{1,2,3,4};
+        int[] a1 = new int[]{1, 2, 3, 4};
         int[] a2 = new int[]{};
         int[] b = interlace(a1, a2);
         System.out.println(Arrays.toString(b));

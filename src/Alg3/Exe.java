@@ -6,7 +6,7 @@ public class Exe {
     int sumFinal = 0;
     int finalSum = 0;
 
-    int digitSum(int n) {
+    public int digitSum(int n) {
         while (n > 0) {
             sumDigit += n % 10;
             n = n / 10;
@@ -14,7 +14,7 @@ public class Exe {
         return sumDigit;
     }
 
-    int finalDigitSum(int n) {
+    public int finalDigitSum(int n) {
         while (n > 0) {
             sumFinal += n % 10;
             n = n / 10;
