@@ -13,14 +13,14 @@ public class Converter {
 
         int number = 0;
 
-//        for (int i = index; i < s.length(); i++) {
-//
-//            for (int n = s.length(); ; i--) {
-//
-//
-//                number = s.charAt(i) *
-//            }
-//        }
+        for (int i = index; i < s.length(); i++) {
+
+            for (int n = s.length(); ; i--) {
+
+
+                number = s.charAt(i) *
+            }
+        }
 
         if (isNegative)
             number = -number;
