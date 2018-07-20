@@ -1,5 +1,7 @@
 package ArrayShifting;
 
+import java.util.Arrays;
+
 public class Exe1 {
 
     public void shiftLeft(int[] array) {
@@ -71,13 +73,14 @@ public class Exe1 {
             return;
         int[] help = new int[n];
         int index = 0;
-        for (int i = array.length - 1 - n; i < n; i++) {
+
+        for (int i = array.length - n; i < array.length; i++) {
             help[index] = array[i];
             index++;
         }
 
-        for (int i = array.length - 1 - n; i > 0; i--) {
-            array[i + 1] = array[i];
+        for (int i = array.length - 1; i >= n; i--) {
+            array[i] = array[i - n];
         }
 
         for (int i = 0; i < n; i++) {
