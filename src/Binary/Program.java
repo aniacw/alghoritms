@@ -13,6 +13,36 @@ public class Program {
         return count;
     }
 
+    public int binaryOnes2(int n){
+        int count = 0;
+
+        // &
+        //1011
+        //0001
+        //0001
+
+        // |
+        //1010
+        //1100
+        //1110
+
+        // >>
+        //1110 >> 1 = 0111
+
+        // ^
+        //1010
+        //1100
+        //0110
+
+
+        while (n > 0){
+            if ((n & 1) == 1)
+                ++count;
+            n >>= 1;
+        }
+        return count;
+    }
+
     public int binaryZeros(int n) {
         int count = 0;
         while (n > 0) {

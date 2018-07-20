@@ -1,5 +1,8 @@
 package Alg8;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Exe {
 
     public static void raiseToPower(int a, int b) {
@@ -18,57 +21,89 @@ public class Exe {
         }
     }
 
-    public static void isPrimary(int a, int b) {
-        int primary = 0;
-
-        for (int n = a; n <= b; n++) {
-
-            for (int i = 2; i <= n; i++) {
-                if (n % i != 0)
-                    primary = n;
-            }
-            System.out.println(primary);
+    static boolean isPrime(int n){
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0)
+                return false;
         }
+        return true;
     }
 
-    public static void isOdd(int a, int b) {
+    public static List<Integer> isPrimary(int a, int b) {
+        List<Integer> result = new ArrayList<>();
+        for (int n = a; n <= b; n++) {
+            if (isPrime(n))
+                result.add(n);
+        }
+        return result;
+    }
 
+    public static List<Integer> isOdd(int a, int b) {
+        List<Integer> result = new ArrayList<>();
         for (int n = a; n <= b; n++) {
             if (n % 2 == 1)
-                System.out.println(n);
+                result.add(n);
         }
+        return result;
     }
 
-    public static void fib(int a, int b) {
-        int prev1 = 0;
-
-        for (int n = a; n <= b; n++) {
-            if (n == 0)
-                System.out.println("1");
-
-            else if (n == 1)
-                System.out.println("1 1");
-
-            else {
-                for (int i = 0; i <= b; i++) {
-                    if (i == a) {
-                        prev1 = i;
-                    }
-                }
-                int prev2 = 1;
-
-                int current = prev2 + prev1;
-                b -= 3;
-
-                while (n >= a && n <= b) {
-                    prev2 = prev1;
-                    prev1 = current;
-                    current = prev2 + prev1;
-                    System.out.println(current);
-                    --n;
-                }
-            }
+    public static List<Integer> fib(int a, int b) {
+//        int prev1 = 0;
+//        List<Integer> result = new ArrayList<>();
+//        for (int n = a; n <= b; n++) {
+//            if (n == 0)
+//                System.out.println("1");
+//
+//            else if (n == 1)
+//                System.out.println("1 1");
+//
+//            else {
+//
+//                int prev2 = 1;
+//
+//                int current = prev2 + prev1;
+//
+//
+//                while (n >= a && n <= b) {
+//                    prev2 = prev1;
+//                    prev1 = current;
+//                    current = prev2 + prev1;
+//                    System.out.println(current);
+//                    --n;
+//                }
+//            }
+//        }
+        List<Integer> result = new ArrayList<>();
+        if (a <= 1) {
+            result.add(1);
+            result.add(1);
         }
+        int prev2 = 1;
+        int prev1 = 1;
+        int current = prev2 + prev1;
+
+//        while (current <= b) {
+//            if (current >= a)
+//                result.add(current);
+//            prev2 = prev1;
+//            prev1 = current;
+//            current = prev2 + prev1;
+//        }
+
+        while (current < a) {
+            prev2 = prev1;
+            prev1 = current;
+            current = prev2 + prev1;
+        }
+
+        while (current <= b) {
+            result.add(current);
+            prev2 = prev1;
+            prev1 = current;
+            current = prev2 + prev1;
+        }
+
+        return result;
     }
 
     public static void sumNumbers(int a, int b) {
@@ -102,7 +137,7 @@ public class Exe {
             System.out.println("odd");
             isOdd(a, b);
             System.out.println("fibonacci");
-            fib(a, b);
+            System.out.println(fib(a, b));
             System.out.println("sum numbers");
             sumNumbers(a, b);
             System.out.println("sum digits");

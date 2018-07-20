@@ -29,13 +29,11 @@ public class Exe {
     }
 
     static void drawRectangle(int x, int y) {
-
-        for (int i = 1; i <= y; ) {
-            for (int j = 1; j <= x; j++) {
-                System.out.print('*');
-            }
-            System.out.println();
+        for (int j = 1; j <= x; j++) {
+            System.out.print('*');
         }
+        System.out.println();
+
 
         for (int i = 2; i < y; i++) {
             System.out.print('*');
@@ -46,9 +44,27 @@ public class Exe {
             System.out.println();
         }
 
-        for (int i = y; ; ) {
-            for (int j = x; ; )
-                System.out.print('*');
+        for (int j = 1; j <= x; j++) {
+            System.out.print('*');
+        }
+        System.out.println();
+    }
+
+    static void christmassTree(int n){
+        int offset = n + 1;
+        int rowLength = 1;
+        for (int triangle = 0; triangle < n; ++triangle){
+            for (int row = 0; row < 3; ++row) {
+                for (int ch = 0; ch < offset; ++ch)
+                    System.out.print(' ');
+                for (int ch = 0; ch < rowLength; ++ch)
+                    System.out.print('*');
+                offset -= 1;
+                rowLength += 2;
+                System.out.println();
+            }
+            rowLength -= 4;
+            offset += 2;
         }
     }
 
@@ -107,7 +123,7 @@ public class Exe {
         drawFilledRectangle(4, 5);
         drawTriangle(5);
         drawRectangle(5, 6);
-        drawChristmasTree(3);
+        christmassTree(6);
     }
 }
 //    Stwórz klasê ConsoleDrawer i dodaj w niej metody:

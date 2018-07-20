@@ -25,7 +25,7 @@ public class Program {
             int prev2 = 1;
             int prev1 = 1;
             int current = prev2 + prev1;
-            n -= 3;
+            n -= 3; //jezeli tu jestesmy to policzylismy juz 2 (1, 1)
             while (n >= 0) {
                 System.out.print(" " + current);
                 prev2 = prev1;
@@ -34,12 +34,14 @@ public class Program {
                 --n;
             }
             System.out.print(" " + current);
+            System.out.println();
             return current;
         }
     }
 
     public static void main(String[] args) {
-        Program.fib2(5);
+        for (int i=0;i<10;++i)
+            Program.fib2(i);
     }
 }
 

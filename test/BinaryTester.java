@@ -14,7 +14,11 @@ public class BinaryTester {
     @Test  // nie dziala
     public void binaryZeroesTest() {
         Program p = new Program();
-        int test = p.binaryZeros(123); //01111011
-        Assert.assertEquals(2, test);
+        int test = p.binaryZeros(123);
+        //01111011
+        //00111101
+        //...
+        //00000001
+        Assert.assertEquals(1, test);
     }
 }
