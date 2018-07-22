@@ -1,5 +1,7 @@
 package PrefixNotation;
 
+import java.util.Stack;
+
 public class Program {
 
     boolean isOperator(char i) {
@@ -9,12 +11,28 @@ public class Program {
             return false;
     }
 
+    char[] reverseArray(char[] array) {
+        char[] reversedInput = new char[array.length];
+        int index = 0;
+        for (int i = array.length - 1; i <= 0; i--) {
+            reversedInput[index] = array[i];
+            index++;
+        }
+        return reversedInput;
+    }
+
     public String prefixToInfixConverter(String prefixInput) {
 
-        for (int i = prefixInput.length(); i > 0; i--) {
-                if(isOperator(prefixInput.charAt(i))) {
+        char[] input = prefixInput.toCharArray();
+        char[] reversedArray = reverseArray(input);
 
-                }
+        Stack stack = new Stack();
+        stack.push(reversedArray);
+
+        for (int i = reversedArray.length -1; i > 0; i--) {
+            if (isOperator(reversedArray[i])) {
+
+            }
         }
 
     }
