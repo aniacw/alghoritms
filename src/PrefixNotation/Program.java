@@ -29,8 +29,11 @@ public class Program {
         Stack stack = new Stack();
         stack.push(reversedArray);
 
-        for (int i = reversedArray.length -1; i > 0; i--) {
+        for (int i = reversedArray.length - 1; i >= 0; i--) {
+            String temp = "";
             if (isOperator(reversedArray[i])) {
+                temp = "(" + reversedArray[i - 2] + reversedArray[i] + reversedArray[i - 1] + ')';
+            } else {
 
             }
         }

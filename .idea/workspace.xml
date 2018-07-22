@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8a0625-90d9-4c64-8a0e-4decf0e5b652" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/PrefixNotation/Program.java" afterPath="$PROJECT_DIR$/src/PrefixNotation/Program.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,9 +25,10 @@
       <file leaf-file-name="Program.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PrefixNotation/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="443">
+              <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#isOperator#0;class#Program#0" expanded="false" />
                 <element signature="method#reverseArray#0;class#Program#0" expanded="false" />
               </folding>
@@ -929,8 +929,8 @@
         <state relative-caret-position="0">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -951,9 +951,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrefixNotation/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="443">
+          <caret line="35" column="94" lean-forward="false" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#isOperator#0;class#Program#0" expanded="false" />
             <element signature="method#reverseArray#0;class#Program#0" expanded="false" />
           </folding>
