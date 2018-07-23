@@ -12,8 +12,10 @@ public class Program {
         while (remainingThrows > 0) {
             next = (firstThrown + 2) % 6;
                 firstThrown = (firstThrown + 2) % 6;
-                rolled.add(next);
-                remainingThrows--;
+                if(next != 0) {
+                    rolled.add(next);
+                    remainingThrows--;
+                }
             }
         return rolled;
     }
