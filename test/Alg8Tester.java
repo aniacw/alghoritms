@@ -3,12 +3,11 @@ import org.junit.Test;
 import Alg8.Exe;
 
 public class Alg8Tester {
-    //dla showNumbers() tez?
 
     @Test
     public void raiseToPowerTest() {
         Exe.raiseToPower(2, 4);
-        //Assert.assertEquals();
+       // Assert.assertEquals();
     }
 
     @Test

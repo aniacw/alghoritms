@@ -8,6 +8,13 @@ public class MorseTester {
     public void morseTest() {
         String input = "-.-. .- .-.. .. ..-. --- .-. -. .. .-";
         String test = Morse.translate(input);
-        Assert.assertTrue("California".equalsIgnoreCase(test));
+        Assert.assertTrue("CALIFORNIA".equals(test));
+    }
+
+    @Test
+    public void morseTestEmpty() {
+        String input = "";
+        String test = Morse.translate(input);
+        Assert.assertTrue("".equals(test));
     }
 }

@@ -1,9 +1,6 @@
 package Morse;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Morse {
 
@@ -16,30 +13,34 @@ public class Morse {
             "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3",
             "4", "5", "6", "7", "8", "9"));
 
+    static HashMap<String, String> morseAlphabet = new HashMap<>();
+
     public static String translate(String input) {
 
         int index = 0;
-        String translated = "";
+        StringBuilder translated = new StringBuilder();
         String[] separateLetters = input.split(" ");
 
         for (int i = 0; i < separateLetters.length; i++) {
+            //String latinLetter = morseAlphabet.get(separateLetters[i]);
+
             for (String currentLetter : morseCodeAlph) {
                 if (separateLetters[i].equalsIgnoreCase(currentLetter)) {
                     index = morseCodeAlph.indexOf(currentLetter);
-                    translated = translated.concat(alphabet.get(index));
+                    translated.append(alphabet.get(index));
                 }
             }
         }
-        System.out.println(translated);
-        return translated;
+        //System.out.println(translated);
+        return translated.toString();
     }
 
     public static void main(String[] args) {
         System.out.println("Type something in Morse...");
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.next();
-        translate(input);
+        String input = scanner.nextLine();
         System.out.println(translate(input));
+
     }
 }
 

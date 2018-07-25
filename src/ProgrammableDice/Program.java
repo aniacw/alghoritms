@@ -1,42 +1,17 @@
 package ProgrammableDice;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 public class Program {
 
-    static List<Integer> addTwo(int firstThrown, int remainingThrows) {
-        List<Integer> rolled = new ArrayList<>();
-        int next = 0;
-        while (remainingThrows > 0) {
-            next = (firstThrown + 2) % 6;
-                firstThrown = (firstThrown + 2) % 6;
-                if(next != 0) {
-                    rolled.add(next);
-                    remainingThrows--;
-                }
-            }
-        return rolled;
+    public boolean isProgramFinished = false;
+
+    public int rollDice(){
+        return 0;
     }
 
-    static List<Integer> play() {
 
-        List<Integer> result = new ArrayList<>();
-        Random random = new Random();
-        int thrown = random.nextInt(6) + 1;
-        System.out.println("Thrown: " + thrown);
 
-        result = addTwo(thrown, 3);
-        System.out.println(result);
-        return result;
-    }
 
-    public static void main(String[] args) {
 
-        play();
-
-    }
 }
 //        Napisz klasę ProgramableDice, która jest rozszerzoną wersją standardowej kostki do gry.
 //

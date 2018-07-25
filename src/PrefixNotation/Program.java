@@ -32,14 +32,21 @@ public class Program {
         for (int i = reversedArray.length - 1; i >= 0; i--) {
             String temp = "";
             if (isOperator(reversedArray[i])) {
-                temp = "(" + reversedArray[i - 2] + reversedArray[i] + reversedArray[i - 1] + ')';
+                temp = "(" + reversedArray[i - 4] + reversedArray[i] + reversedArray[i - 2] + ')';
             } else {
 
             }
         }
-return null;
+        return null;
     }
+
 }
+
+// - - 9 8 7
+
+
+
+// (9-8)-7
 
 //        Napisz program który wykonuje translację wyrażeń arytmetycznych z notacji polskiej na klasyczną infixową.
 //        Nasze wyrażenia w postaci prefixowej składają się tylko z liczb i operatorów: + - / *

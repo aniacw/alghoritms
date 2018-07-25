@@ -15,6 +15,6 @@ public class Alg3Tester {
     public void finalDigitSumTest() {
         Exe e = new Exe();
         int test = e.finalDigitSum(12345);
-        Assert.assertEquals(6, test); // ktore .assertEquals ja uzywam?
+        Assert.assertEquals(6, test);
     }
 }

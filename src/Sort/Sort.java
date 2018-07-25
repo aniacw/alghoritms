@@ -52,6 +52,22 @@ public class Sort {
     }
 
     static void quickSort(int[] array) {
+        int leftCursor = 0;
+        int rightCursor = array.length - 1;
+        int pivot = array[rightCursor];
+        int temp = 0;
+        for (int i = 0; i < pivot; i++) {
+
+            leftCursor++;
+            rightCursor--;
+            if ((leftCursor > pivot) && (rightCursor < pivot)) {
+                temp = leftCursor;
+                leftCursor = rightCursor;
+                rightCursor = temp;
+            }
+
+        }
+
 
     }
 
@@ -77,5 +93,3 @@ public class Sort {
 //    void insertionSort(int[] array)
 //    void bubbleSort(int[] array)
 //    void quickSort(int[] array)
-//    Opisy poszczególnych algorytmów znajdziesz w internecie. Postaraj siê nie posi³kowaæ gotowym kodem
-

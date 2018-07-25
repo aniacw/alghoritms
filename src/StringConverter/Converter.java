@@ -4,34 +4,43 @@ public class Converter {
 
     public static int toInt(String s) {
         boolean isNegative = false;
-        int index = 0;
+        int begin = 0;
 
         if (s.charAt(0) == '-') {
             isNegative = true;
-            index = 1;
+            begin = 1;
         }
 
         int number = 0;
-//
-//        for (int i = index; i < s.length(); i++) {
-//            int a = 1;
-//            for (int n = s.length(); ; i--) {
-//
-//
-//
-//                number = s.charAt(i) *
-//            }
-//        }
+        int pow10 = 1;
+        int zeroCharValue = Character.getNumericValue('0');
+
+        for (int i = s.length() - 1; i >= begin; i--) {
+            int charValue = Character.getNumericValue(s.charAt(i)) - zeroCharValue;
+            number += charValue*pow10;
+            pow10*=10;
+        }
 
         if (isNegative)
             number = -number;
 
-        System.out.println(number);
         return number;
     }
 
     public static void main(String[] args) {
-        toInt("12345");
+        System.out.println(toInt("-12345"));
+
+        int v = (int)(Math.pow(2, 31) - 102.0);
+        System.out.println(v);
+        v*=10;
+        System.out.println(v);
+
+        //liczba
+        //liczba ujemna
+        //pusty string
+        //string z 2 minusami
+        //string z jakims niepoprawnym znakiem
+        //string z liczba przekraczajaca max int
     }
 }
 
