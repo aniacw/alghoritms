@@ -31,7 +31,6 @@ public class Morse {
                 }
             }
         }
-        //System.out.println(translated);
         return translated.toString();
     }
 

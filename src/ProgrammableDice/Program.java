@@ -2,14 +2,16 @@ package ProgrammableDice;
 
 public class Program {
 
-    public boolean isProgramFinished = false;
+    public static boolean isProgramFinished = false;
+    public static int currentNumber;
 
-    public int rollDice(){
+    public static int rollDice(){
         return 0;
     }
 
-
-
+    public int getCurrentNumber() {
+        return currentNumber;
+    }
 
 
 }
@@ -27,7 +29,7 @@ public class Program {
 //        - wyrzucenie ciągu liczb, który w jakiś sposób zależy od poprzednio wyrzuconych (np przedostatni rzut + 1, ostatni rzut - 2)
 //        - zmiana zakresu losowania
 //        - zmiana prawdopodobieństwa wyrzucenia różnych liczb
-//        W każdym momencie może być aktywny maksymalnie jden program. Jeśli aktualnie korzystamy z programu, nie losujemy liczb
+//        W każdym momencie może być aktywny maksymalnie jeden program. Jeśli aktualnie korzystamy z programu, nie losujemy liczb
 //        standardowym trybem (tzn random z przedziału 1 do ilości ścian kostki).
 //        Przykład:
 //        Kostka 6-ścienna

@@ -17,8 +17,8 @@ public class Converter {
 
         for (int i = s.length() - 1; i >= begin; i--) {
             int charValue = Character.getNumericValue(s.charAt(i)) - zeroCharValue;
-            number += charValue*pow10;
-            pow10*=10;
+            number += charValue * pow10;
+            pow10 *= 10;
         }
 
         if (isNegative)
@@ -30,9 +30,9 @@ public class Converter {
     public static void main(String[] args) {
         System.out.println(toInt("-12345"));
 
-        int v = (int)(Math.pow(2, 31) - 102.0);
+        int v = (int) (Math.pow(2, 31) - 102.0);
         System.out.println(v);
-        v*=10;
+        v *= 10;
         System.out.println(v);
 
         //liczba

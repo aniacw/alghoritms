@@ -1,21 +1,23 @@
 package ProgrammableDice;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
-public class AddTwo extends Program{
+public class AddTwo extends Program {
 
-    static List<Integer> addTwo(int firstThrown, int remainingThrows) {
-        List<Integer> rolled = new ArrayList<>();
+
+    public static int rollDice() {
+        int firstThrown = Program.currentNumber;
+        Scanner scanner = new Scanner(System.in);
+        int remainingThrows = scanner.nextInt();
         int next = 0;
+
         while (remainingThrows > 0) {
-            next = (firstThrown + 2) % 6;
+            next = (firstThrown + 2) % 6 + 1;
             firstThrown = (firstThrown + 2) % 6;
-            if (next != 0) {
-                rolled.add(next);
-                remainingThrows--;
-            }
+            History.addToList(next);
+            remainingThrows--;
         }
-        return rolled;
+        Program.isProgramFinished = true;
+        return next;
     }
 }
