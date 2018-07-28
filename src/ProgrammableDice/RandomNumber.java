@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class RandomNumber extends Program {
 
-
-    public static int rollDice() {
+    @Override
+    public  int rollDice() {
         Random random = new Random();
         int rolled = random.nextInt(6) + 1;
         Program.currentNumber = rolled;

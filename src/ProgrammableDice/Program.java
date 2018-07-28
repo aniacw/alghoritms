@@ -5,7 +5,7 @@ public class Program {
     public static boolean isProgramFinished = false;
     public static int currentNumber;
 
-    public static int rollDice(){
+    public  int rollDice(){
         return 0;
     }
 

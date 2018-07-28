@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class AddTwo extends Program {
 
-
-    public static int rollDice() {
+    @Override
+    public  int rollDice() {
         int firstThrown = Program.currentNumber;
         Scanner scanner = new Scanner(System.in);
         int remainingThrows = scanner.nextInt();

@@ -5,7 +5,7 @@ public class ProgramSelector {
     Program program;
 
     public void run() {
-        RandomNumber.rollDice();
+        .rollDice();
 
         if(Program.currentNumber == 3) {
             NextIsOne.rollDice();

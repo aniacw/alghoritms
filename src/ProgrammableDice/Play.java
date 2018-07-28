@@ -7,7 +7,7 @@ public class Play {
 
         selector.run();
 
-        System.out.println(RandomNumber.rollDice());
+        System.out.println();
 
 
 

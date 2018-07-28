@@ -2,8 +2,8 @@ package ProgrammableDice;
 
 public class TwiceLastNumber extends Program {
 
-
-    public static int rollDice() {
+    @Override
+    public  int rollDice() {
         int last = Program.currentNumber;
         History.addToList(last);
         History.addToList(last);

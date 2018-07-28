@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8a0625-90d9-4c64-8a0e-4decf0e5b652" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProgrammableDice/History.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/ProgrammableDiceTester/RollDiceTester.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/Morse/Morse.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/Morse/Morse.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/AddTwo.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/AddTwo.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Dice.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Dice.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Play.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Play.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Program.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Program.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/RandomNumber.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/RandomNumber.class" />
-      <change beforePath="$PROJECT_DIR$/src/Morse/Morse.java" afterPath="$PROJECT_DIR$/src/Morse/Morse.java" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Dice.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Dice.java" />
+      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Play.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Play.java" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Program.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Program.java" />
+      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/StringConverter/Converter.java" afterPath="$PROJECT_DIR$/src/StringConverter/Converter.java" />
+      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddTwo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTwo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="132">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -54,8 +42,8 @@
       <file leaf-file-name="TwiceLastNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="88">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -64,8 +52,8 @@
       <file leaf-file-name="NextIsOne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="220">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -74,8 +62,8 @@
       <file leaf-file-name="RandomNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="132">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -100,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/History.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
@@ -117,23 +105,23 @@
       <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="154">
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Play.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Play.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Play.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -142,8 +130,8 @@
       <file leaf-file-name="ProgramSelector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="88">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -215,15 +203,15 @@
         <option value="$PROJECT_DIR$/src/Morse/Morse.java" />
         <option value="$PROJECT_DIR$/src/StringConverter/Converter.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/Dice.java" />
-        <option value="$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/History.java" />
         <option value="$PROJECT_DIR$/test/ProgrammableDiceTester/RandomNumberRollDiceTester.java" />
-        <option value="$PROJECT_DIR$/src/ProgrammableDice/Play.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/Program.java" />
-        <option value="$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java" />
-        <option value="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/Play.java" />
       </list>
     </option>
   </component>
@@ -257,6 +245,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,9 +281,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -504,19 +492,18 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Morse" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Converter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MorseTester.morseTestEmpty" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Play" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RandomNumberRollDiceTester.randomNumberRollDiceTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RollDiceTester.randomNumberRollDiceTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Morse" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Converter" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MorseTester.morseTestEmpty" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Play" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Play" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RandomNumberRollDiceTester.randomNumberRollDiceTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Morse" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MorseTester.morseTestEmpty" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Converter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Morse" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MorseTester.morseTestEmpty" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Converter" />
       </list>
     </recent_temporary>
   </component>
@@ -580,13 +567,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -603,6 +589,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -983,14 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ProgrammableDiceTester/RollDiceTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1001,63 +980,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Play.java">
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/History.java">
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/TwiceLastNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="88">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1075,10 +1046,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/History.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>
