@@ -1,20 +1,17 @@
 package ProgrammableDice;
 
-public class Program {
+import java.util.List;
 
-    public static boolean isProgramFinished = false;
-    public static int currentNumber;
+public interface Program {
 
-    public  int rollDice(){
-        return 0;
-    }
+    boolean isFinished();
 
-    public int getCurrentNumber() {
-        return currentNumber;
-    }
+    int rollDice();
 
+    boolean isTriggered(List<Integer> history);
 
 }
+
 //        Napisz klasę ProgramableDice, która jest rozszerzoną wersją standardowej kostki do gry.
 //
 //        Założenie jest takie, że rzucamy kostką i dostajemy jakiś wynik w postaci inta, ale nie jest on zawsze losowany

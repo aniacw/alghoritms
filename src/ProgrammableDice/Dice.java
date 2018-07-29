@@ -1,16 +1,25 @@
 package ProgrammableDice;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Dice {
 
-    protected int number;
+    Program currentProgram;
 
-    public Dice(int number) {
-        this.number = number;
+    List<Integer> history = new ArrayList<>();
+
+    public void run() {
+
+
     }
 
-    public int getNumber() {
-        return number;
+    public void addToHistory(int number) {
+        history.add(number);
     }
 
-    Program current;
 }
+//ma dodawac do historii
+//ma odpowiadać za generowanie tych wartości przy pomocy programów.
+//Powinna natomiast mieć instancję historii i ostatecznie przy rzucie pobierać liczbę z aktualnego programu,
+// dodawać do historii, robić wszystkie inne sprawdzenia np czy nie odpaliliśmy innego programu i ostatecznie zwracać ten numer
