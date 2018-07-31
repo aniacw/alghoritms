@@ -5,9 +5,12 @@ import java.util.Random;
 
 public class RandomNumber implements Program {
 
+    public RandomNumber() {
+    }
+
     @Override
     public boolean isFinished() {
-        return false;
+        return true;
     }
 
     @Override
@@ -16,12 +19,9 @@ public class RandomNumber implements Program {
     }
 
     @Override
-    public  int rollDice() {
+    public  int generateNumber() {
         Random random = new Random();
-        int rolled = random.nextInt(6) + 1;
-        Program.currentNumber = rolled;
-
-        Program.isProgramFinished = true;
-        return Program.currentNumber;
+        int generated = random.nextInt(6) + 1;
+        return generated;
     }
 }

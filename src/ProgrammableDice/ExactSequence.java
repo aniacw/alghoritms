@@ -6,16 +6,16 @@ public class ExactSequence implements Program {
 
     @Override
     public boolean isFinished() {
-        return false;
+        return true;
     }
 
     @Override
-    public int rollDice() {
-        return 0;
+    public int generateNumber() {
+        return 4;
     }
 
     @Override
     public boolean isTriggered(List<Integer> history) {
-        return false;
+        return history.get(history.size()-1) == 1 && history.get(history.size()-2) == 3;
     }
 }

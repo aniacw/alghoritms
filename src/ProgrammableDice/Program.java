@@ -6,7 +6,7 @@ public interface Program {
 
     boolean isFinished();
 
-    int rollDice();
+    int generateNumber();
 
     boolean isTriggered(List<Integer> history);
 

@@ -6,19 +6,17 @@ public class TwiceLastNumber implements Program {
 
     @Override
     public boolean isFinished() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean isTriggered(List<Integer> history) {
-        return false;
+        return history.get(history.size()-1) == 5;
     }
 
     @Override
-    public  int rollDice() {
-        int last = Program.currentNumber;
-
-
-        return last + '\n' + last;
+    public  int generateNumber() {
+        int generated = 5;
+        return generated + '\n' + generated;
     }
 }

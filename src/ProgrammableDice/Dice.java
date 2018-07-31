@@ -5,13 +5,43 @@ import java.util.List;
 
 public class Dice {
 
-    Program currentProgram;
+    public Dice() {
+    }
 
+    AddTwo addTwo = new AddTwo();
+    TwiceLastNumber twiceLastNumber = new TwiceLastNumber();
+    ExactSequence exactSequence = new ExactSequence();
+    RandomNumber randomNumber = new RandomNumber();
+
+    private int current;
     List<Integer> history = new ArrayList<>();
 
-    public void run() {
+    public int rollDice() {
+        current = randomNumber.generateNumber();
+        addToHistory(current);
+        randomNumber.isFinished();
 
+        if (addTwo.isTriggered(history)) {
+            current = addTwo.generateNumber();
+            addTwo.isFinished();
+        }
 
+        if (twiceLastNumber.isTriggered(history)) {
+            current = twiceLastNumber.generateNumber();
+            twiceLastNumber.isFinished();
+            randomNumber.generateNumber();
+        }
+
+        if (exactSequence.isTriggered(history)) {
+            current = exactSequence.generateNumber();
+            exactSequence.isFinished();
+        } else {
+            current = randomNumber.generateNumber();
+            randomNumber.isFinished();
+        }
+
+        addToHistory(current);
+        return current;
     }
 
     public void addToHistory(int number) {
