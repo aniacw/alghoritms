@@ -3,9 +3,14 @@ package ProgrammableDice;
 import java.util.List;
 import java.util.Random;
 
-public class RandomNumber implements Program {
+public class RandomNumber extends Program {
+    private Random random;
+    private int bound;
 
-    public RandomNumber() {
+    public RandomNumber(Trigger trigger, int bound) {
+        super(trigger);
+        random = new Random();
+        this.bound = bound;
     }
 
     @Override
@@ -14,14 +19,7 @@ public class RandomNumber implements Program {
     }
 
     @Override
-    public boolean isTriggered(List<Integer> history) {
-        return false;
-    }
-
-    @Override
     public  int generateNumber() {
-        Random random = new Random();
-        int generated = random.nextInt(6) + 1;
-        return generated;
+        return random.nextInt(bound) + 1;
     }
 }

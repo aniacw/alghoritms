@@ -1,14 +1,30 @@
 package ProgrammableDice;
 
+import ProgrammableDice.Dice.Dice;
+
 import java.util.List;
 
-public interface Program {
+public abstract class Program {
+    private Trigger trigger;
+    protected Dice dice;
 
-    boolean isFinished();
+    protected Program(Trigger trigger) {
+        this.trigger = trigger;
+    }
 
-    int generateNumber();
+    public void setDice(Dice dice) {
+        this.dice = dice;
+    }
 
-    boolean isTriggered(List<Integer> history);
+    public abstract boolean isFinished();
+
+    public abstract int generateNumber();
+
+    public Trigger getTrigger() {
+        return trigger;
+    }
+
+    //boolean isTriggered(List<Integer> history);
 
 }
 
