@@ -1,7 +1,5 @@
 package ProgrammableDice;
 
-import java.util.List;
-
 public class RepeatLastNumber extends Program {
 
     private int repetitions;
@@ -9,23 +7,21 @@ public class RepeatLastNumber extends Program {
 
     protected RepeatLastNumber(Trigger trigger, int repetitions) {
         super(trigger);
-        this.repetitions=repetitions;
+        this.repetitions = repetitions;
         this.counter = 0;
     }
 
     @Override
     public boolean isFinished() {
-        if (counter == repetitions){
+        if (counter == repetitions) {
             counter = 0;
-            return  true;
-        }
-        else
+            return true;
+        } else
             return false;
     }
 
-
     @Override
-    public  int generateNumber() {
+    public int generateNumber() {
         ++counter;
         return dice.getHistory().last();
     }

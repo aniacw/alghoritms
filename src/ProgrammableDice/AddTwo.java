@@ -1,34 +1,33 @@
-//package ProgrammableDice;
-//
-//import java.util.List;
-//import java.util.Scanner;
-//
-//public class AddTwo implements Program {
-//
-//    @Override
-//    public boolean isFinished() {
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean isTriggered(List<Integer> history) {
-//        return history.get(history.size()-1) == 2;
-//    }
-//
-//    private int generated = 0;
-//
-//    @Override
-//    public int generateNumber() {
-//        int firstThrown = 2;
-//
-//        Scanner scanner = new Scanner(System.in);
-//        int remainingThrows = scanner.nextInt();
-//
-//        while (remainingThrows > 0) {
-//            generated = (firstThrown + 2) % 6 + 1;
-//            firstThrown = (firstThrown + 2) % 6;
-//            remainingThrows--;
-//        }
-//        return generated;
-//    }
-//}
+package ProgrammableDice;
+
+import java.util.ListIterator;
+
+public class AddTwo extends Program {
+    private ListIterator<Integer> iterator;
+    private int repetitions;
+    private int counter = 0;
+
+    public AddTwo(Trigger trigger,  int repetitions) {
+        super(trigger);
+
+        this.repetitions = repetitions;
+    }
+
+    @Override
+    public boolean isFinished() {
+        if (repetitions == counter) {
+            counter = 0;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public int generateNumber() {
+        counter++;
+        int n = dice.getHistory().last();
+        n = (n + 2) % 6;
+        return n;
+    }
+}

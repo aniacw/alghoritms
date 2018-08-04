@@ -1,6 +1,5 @@
 package ProgrammableDice;
 
-import java.util.List;
 import java.util.Random;
 
 public class RandomNumber extends Program {
@@ -19,7 +18,7 @@ public class RandomNumber extends Program {
     }
 
     @Override
-    public  int generateNumber() {
+    public int generateNumber() {
         return random.nextInt(bound) + 1;
     }
 }

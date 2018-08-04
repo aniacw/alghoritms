@@ -1,6 +1,5 @@
 package ProgrammableDice;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ListIterator;
@@ -27,8 +26,7 @@ public class ExactSequence extends Program {
         if (!iterator.hasNext()) {
             iterator = sequence.listIterator();
             return true;
-        }
-        else
+        } else
             return false;
     }
 

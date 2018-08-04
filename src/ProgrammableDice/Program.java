@@ -2,8 +2,6 @@ package ProgrammableDice;
 
 import ProgrammableDice.Dice.Dice;
 
-import java.util.List;
-
 public abstract class Program {
     private Trigger trigger;
     protected Dice dice;
@@ -23,9 +21,6 @@ public abstract class Program {
     public Trigger getTrigger() {
         return trigger;
     }
-
-    //boolean isTriggered(List<Integer> history);
-
 }
 
 //        Napisz klasę ProgramableDice, która jest rozszerzoną wersją standardowej kostki do gry.
