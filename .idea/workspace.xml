@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8a0625-90d9-4c64-8a0e-4decf0e5b652" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Dice/StringTrigger.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/AddTwo.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/AddTwo.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Play.class" afterPath="$PROJECT_DIR$/out/production/alghoritms/ProgrammableDice/Play.class" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Dice/Dice.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Dice/Dice.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Dice/History.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Dice/History.java" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java" />
       <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Play.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Play.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/Program.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/Program.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/RandomNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/ProgrammableDice/RepeatLastNumber.java" afterPath="$PROJECT_DIR$/src/ProgrammableDice/RepeatLastNumber.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="Dice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Dice/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="e#1383#1384#0" expanded="true" />
                 <element signature="e#1413#1414#0" expanded="true" />
@@ -49,42 +47,77 @@
       <file leaf-file-name="ExactSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="328">
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
+                <element signature="method#ExactSequence#0;class#ExactSequence#0" expanded="false" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Play.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Play.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Play.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="198">
+              <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SequenceTrigger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/SequenceTrigger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTrigger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Dice/StringTrigger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="method#convert#0;class#StringTrigger#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StringConverter/Converter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepeatLastNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/RepeatLastNumber.java">
+      <file leaf-file-name="Trigger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Trigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTwo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="88">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -124,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Alg1/Coin.java" />
-        <option value="$PROJECT_DIR$/src/Alg1/Program.java" />
         <option value="$PROJECT_DIR$/src/Alg1/VendingMachine.java" />
         <option value="$PROJECT_DIR$/src/Alg4/Program.java" />
         <option value="$PROJECT_DIR$/src/Alg2/Program.java" />
@@ -155,7 +186,6 @@
         <option value="$PROJECT_DIR$/test/MorseTester.java" />
         <option value="$PROJECT_DIR$/src/LabyrinthGenerator/LabyrinthGenerator.java" />
         <option value="$PROJECT_DIR$/src/Morse/Morse.java" />
-        <option value="$PROJECT_DIR$/src/StringConverter/Converter.java" />
         <option value="$PROJECT_DIR$/test/ProgrammableDiceTester/RandomNumberRollDiceTester.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java" />
@@ -171,9 +201,13 @@
         <option value="$PROJECT_DIR$/src/ProgrammableDice/RepeatLastNumber.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/Dice/History.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/Dice/Dice.java" />
-        <option value="$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java" />
-        <option value="$PROJECT_DIR$/src/ProgrammableDice/Play.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/Dice/ExactSequenceString.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/ExactSequenceString.java" />
         <option value="$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java" />
+        <option value="$PROJECT_DIR$/src/StringConverter/Converter.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/Play.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java" />
+        <option value="$PROJECT_DIR$/src/ProgrammableDice/Dice/StringTrigger.java" />
       </list>
     </option>
   </component>
@@ -207,6 +241,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,39 +260,12 @@
               <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
               <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LabyrinthGenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProgrammableDice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProgrammableDice" type="462c0819:PsiDirectoryNode" />
-              <item name="Dice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alghoritms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alghoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="ProgrammableDiceTester" type="462c0819:PsiDirectoryNode" />
+              <item name="StringConverter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -331,7 +341,7 @@
     <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ProgrammableDice.Dice.*" />
+          <option name="PATTERN" value="ProgrammableDice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -476,9 +486,9 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Play" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Morse" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MorseTester.morseTestEmpty" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Converter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Converter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Morse" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MorseTester.morseTestEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -677,27 +687,20 @@
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ProgrammableDice/Play.java</url>
+          <line>6</line>
+          <properties class="ProgrammableDice.Play" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="104" />
+      <option name="time" value="109" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Exe1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayShifting/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -927,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringConverter/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/NextIsOne.java" />
     <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ProgramSelector.java" />
     <entry file="file://$PROJECT_DIR$/test/ProgrammableDiceTester/RollDiceTester.java">
@@ -951,13 +947,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AlwaysTrueTrigger.java" />
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/SequenceTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -970,10 +959,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -983,32 +972,12 @@
         <state relative-caret-position="-26">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Trigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="false" />
+            <element signature="e#227#228#0" expanded="false" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#418#419#0" expanded="false" />
+            <element signature="e#448#449#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1019,11 +988,30 @@
           <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="false" />
+            <element signature="e#213#214#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Dice/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,30 +1023,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Play.java">
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ExactSequenceString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="308">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Dice/Dice.java">
+    <entry file="file://$PROJECT_DIR$/src/StringConverter/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Trigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/SequenceTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding>
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/AddTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/ExactSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="328">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ExactSequence#0;class#ExactSequence#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Dice/StringTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="method#convert#0;class#StringTrigger#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgrammableDice/Play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

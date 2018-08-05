@@ -1,15 +1,11 @@
 package ProgrammableDice;
 
-import java.util.ListIterator;
-
 public class AddTwo extends Program {
-    private ListIterator<Integer> iterator;
     private int repetitions;
     private int counter = 0;
 
     public AddTwo(Trigger trigger,  int repetitions) {
         super(trigger);
-
         this.repetitions = repetitions;
     }
 

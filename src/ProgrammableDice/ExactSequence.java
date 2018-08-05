@@ -18,7 +18,7 @@ public class ExactSequence extends Program {
         this(trigger, Arrays.asList(sequence));
 //        super(trigger);
 //        this.sequence = Arrays.asList(sequence);
-//        this.iterator = this.sequence.listIterator();
+        this.iterator = this.sequence.listIterator();
     }
 
     @Override
