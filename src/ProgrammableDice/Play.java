@@ -1,7 +1,6 @@
 package ProgrammableDice;
 
 import ProgrammableDice.Dice.Dice;
-import ProgrammableDice.Dice.StringTrigger;
 
 public class Play {
     public static void main(String[] args) {

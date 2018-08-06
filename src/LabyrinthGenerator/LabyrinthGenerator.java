@@ -1,10 +1,14 @@
 package LabyrinthGenerator;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class LabyrinthGenerator {
 
     private Random random = new Random(System.currentTimeMillis());
+
+    private List<String> directions = new ArrayList<>();
 
     private void dig(boolean[][] labyrinth, int x, int y){
         //losujemy kierunek (sposrod mozliwych kierunkow)
