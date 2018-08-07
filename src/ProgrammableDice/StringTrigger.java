@@ -4,6 +4,7 @@ import ProgrammableDice.Dice.History;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class StringTrigger implements Trigger {
@@ -51,9 +52,62 @@ public class StringTrigger implements Trigger {
 //        return counter == sequence.length();
 //    }
 
-    // ta nie dziala
     @Override
     public boolean isTriggered(History history) {
+        List<Integer> recent = history.last(sequence.length());
+        Iterator<Integer> sequenceIterator = recent.listIterator();
+        int i = 0;
+
+        while (sequenceIterator.hasNext()) {
+            if (sequence.charAt(i) == '1') {
+                if (recent.get(i) == 1) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            else if (sequence.charAt(i) == '2') {
+                if (recent.get(i) == 2) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            else if (sequence.charAt(i) == '3') {
+                if (recent.get(i) == 3) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            else if (sequence.charAt(i) == '4') {
+                if (recent.get(i) == 4) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            else if (sequence.charAt(i) == '5') {
+                if (recent.get(i) == 5) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            else if (sequence.charAt(i) == '6') {
+                if (recent.get(i) == 6) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            i++;
+        }
+        return true;
+    }
+    // ta nie dziala
+
+    public boolean isTriggered3(History history) {
         int counter = 0;
         List<Integer> recent = history.last(sequence.length());
 
@@ -109,54 +163,54 @@ public class StringTrigger implements Trigger {
     }
 
     //ta dziala
-    @Override
-    public boolean isTriggered(History history) {
-        int counter = 0;
-        List<Integer> recent = history.last(sequence.length());
-
-        for (int i = 0; i < recent.size(); i++) {
-            for (int k = 0; k < sequence.length(); k++) {
-                if (recent.get(i) == 1) {
-                    if (sequence.charAt(k) == '1') {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                    if (recent.get(i) == 2) {
-                        if (sequence.charAt(k) == '2') ;
-                        counter++;
-                    } else {
-                        break;
-                    }
-                    if (recent.get(i) == 3) {
-                        if (sequence.charAt(k) == '3') ;
-                        counter++;
-                    } else {
-                        break;
-                    }
-                    if (recent.get(i) == 4) {
-                        if (sequence.charAt(k) == '4') ;
-                        counter++;
-                    } else {
-                        break;
-                    }
-                    if (recent.get(i) == 5) {
-                        if (sequence.charAt(k) == '5') ;
-                        counter++;
-                    } else {
-                        break;
-                    }
-                    if (recent.get(i) == 6) {
-                        if (sequence.charAt(k) == '6') ;
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-            }
-        }
-        return counter == sequence.length();
-    }
+//    @Override
+//    public boolean isTriggered(History history) {
+//        int counter = 0;
+//        List<Integer> recent = history.last(sequence.length());
+//
+//        for (int i = 0; i < recent.size(); i++) {
+//            for (int k = 0; k < sequence.length(); k++) {
+//                if (recent.get(i) == 1) {
+//                    if (sequence.charAt(k) == '1') {
+//                        counter++;
+//                    } else {
+//                        break;
+//                    }
+//                    if (recent.get(i) == 2) {
+//                        if (sequence.charAt(k) == '2') ;
+//                        counter++;
+//                    } else {
+//                        break;
+//                    }
+//                    if (recent.get(i) == 3) {
+//                        if (sequence.charAt(k) == '3') ;
+//                        counter++;
+//                    } else {
+//                        break;
+//                    }
+//                    if (recent.get(i) == 4) {
+//                        if (sequence.charAt(k) == '4') ;
+//                        counter++;
+//                    } else {
+//                        break;
+//                    }
+//                    if (recent.get(i) == 5) {
+//                        if (sequence.charAt(k) == '5') ;
+//                        counter++;
+//                    } else {
+//                        break;
+//                    }
+//                    if (recent.get(i) == 6) {
+//                        if (sequence.charAt(k) == '6') ;
+//                        counter++;
+//                    } else {
+//                        break;
+//                    }
+//                }
+//            }
+//        }
+//        return counter == sequence.length();
+//    }
 
 //    @Override
 //    public boolean isTriggered(History history) {
@@ -172,7 +226,7 @@ public class StringTrigger implements Trigger {
 //        return counter == sequence.length();
 //    }
 
-        // @Override
+    // @Override
 //    public boolean isTriggeredv2(History history) {
 //        int counter = 0;
 //        List<Integer> recent = history.last(sequence.length());
@@ -187,7 +241,7 @@ public class StringTrigger implements Trigger {
 //        }
 //        return counter == sequence.length();
 //    }
-    }
+}
 
 
 //    W tym stringu wzorca moga występować
