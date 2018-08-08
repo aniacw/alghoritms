@@ -14,9 +14,17 @@ public class History {
         return history.get(history.size() - 1);
     }
 
+    public int size(){
+        return history.size();
+    }
+
     public List<Integer> last(int n) {
         if (n > history.size())
             return new ArrayList<>(history);
         return history.subList(history.size() - n, history.size());
+    }
+
+    public void clear() {
+        history.clear();
     }
 }

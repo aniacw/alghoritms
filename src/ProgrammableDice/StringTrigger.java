@@ -2,10 +2,8 @@ package ProgrammableDice;
 
 import ProgrammableDice.Dice.History;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.text.StringCharacterIterator;
+import java.util.*;
 
 public class StringTrigger implements Trigger {
     private String sequence;
@@ -52,58 +50,94 @@ public class StringTrigger implements Trigger {
 //        return counter == sequence.length();
 //    }
 
+    private static boolean isDigit(char ch){
+        return ch >= '1' && ch <='6';
+    }
+
+    private static int interpretAsInt(char ch){
+        return Character.getNumericValue(ch) - Character.getNumericValue('0');
+    }
+
+    private int expectedLength(){
+        int length = 0;
+        for (int i=0;i<sequence.length();++i){
+            char ch = sequence.charAt(i);
+            if (isDigit(ch) || ch == '*')
+                ++length;
+        }
+        return length;
+    }
+
     @Override
     public boolean isTriggered(History history) {
-        List<Integer> recent = history.last(sequence.length());
-        Iterator<Integer> sequenceIterator = recent.listIterator();
-        int i = 0;
+        int expected = expectedLength();
+        List<Integer> recent = history.last(expected);
+        if (expected > recent.size())
+            return false;
+        int h = 0;
+        int s = 0;
+        while (h < recent.size() && s < sequence.length()) {
+            char ch = sequence.charAt(s);
+            Integer n = recent.get(h);
+            if (isDigit(ch) && interpretAsInt(ch) != n)
+                return false;
+            if (ch == '!'){
+                ++s;
+                if (s < sequence.length()){
+                    char nextch =sequence.charAt(s);
+                    if (isDigit(nextch) && interpretAsInt(nextch) == n)
+                        return false;
+                }
+                else
+                    return false;
+            }
+            ++h;
+            ++s;
+//            if (sequence.charAt(i) == '1') {
+//                if (recent.get(i) == 1) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//            else if (sequence.charAt(i) == '2') {
+//                if (recent.get(i) == 2) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//            else if (sequence.charAt(i) == '3') {
+//                if (recent.get(i) == 3) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//            else if (sequence.charAt(i) == '4') {
+//                if (recent.get(i) == 4) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//            else if (sequence.charAt(i) == '5') {
+//                if (recent.get(i) == 5) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
+//            else if (sequence.charAt(i) == '6') {
+//                if (recent.get(i) == 6) {
+//                    return true;
+//                } else {
+//                    return false;
+//                }
+//            }
 
-        while (sequenceIterator.hasNext()) {
-            if (sequence.charAt(i) == '1') {
-                if (recent.get(i) == 1) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            else if (sequence.charAt(i) == '2') {
-                if (recent.get(i) == 2) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            else if (sequence.charAt(i) == '3') {
-                if (recent.get(i) == 3) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            else if (sequence.charAt(i) == '4') {
-                if (recent.get(i) == 4) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            else if (sequence.charAt(i) == '5') {
-                if (recent.get(i) == 5) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            else if (sequence.charAt(i) == '6') {
-                if (recent.get(i) == 6) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            i++;
         }
-        return true;
+        return h == recent.size() && s == sequence.length();
     }
     // ta nie dziala
 

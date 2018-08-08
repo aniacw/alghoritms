@@ -8,6 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Dice {
+    private static final Program defaultProgram = new RandomNumber(new Trigger() {
+        @Override
+        public boolean isTriggered(History history) {
+            return true;
+        }
+    }, 6);
 
     private List<Program> programs;
     private Program currentProgram;
@@ -15,12 +21,7 @@ public class Dice {
 
     public Dice() {
         programs = new ArrayList<>();
-        currentProgram = new RandomNumber(new Trigger() {
-            @Override
-            public boolean isTriggered(History history) {
-                return true;
-            }
-        }, 6);
+        currentProgram = defaultProgram;
         programs.add(currentProgram);
         history = new History();
     }
@@ -54,6 +55,11 @@ public class Dice {
 
     public History getHistory() {
         return history;
+    }
+
+    public void reset(){
+        history.clear();
+        currentProgram=defaultProgram;
     }
 
 }
