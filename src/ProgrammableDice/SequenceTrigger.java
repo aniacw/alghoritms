@@ -16,7 +16,6 @@ public class SequenceTrigger implements Trigger {
         this.sequence = Arrays.asList(sequence);
     }
 
-
     @Override
     public boolean isTriggered(History history) {
         return history.last(sequence.size()).equals(sequence);

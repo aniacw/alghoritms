@@ -2,13 +2,10 @@ package ProgrammableDice;
 
 import ProgrammableDice.Dice.History;
 
-import java.text.StringCharacterIterator;
 import java.util.*;
 
 public class StringTrigger implements Trigger {
     private String sequence;
-    private int number = 0;
-    private List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6));
 
     public StringTrigger(String sequence) {
         this.sequence = sequence;
@@ -17,50 +14,17 @@ public class StringTrigger implements Trigger {
     public StringTrigger() {
     }
 
-//    public int convert(String sequence) {
-//        int pow10 = 1;
-//        int begin = 0;
-//
-//        for (int n = sequence.length() - 1; n <= begin; n--) {
-//            int charValue = Character.getNumericValue(sequence.charAt(n));
-//            number += charValue * pow10;
-//            pow10 *= 10;
-//        }
-//        return number;
-//    }
-
-//    public void verify(int n) {
-//        if (!numbers.contains(n))
-//            index++;
-//    }
-//
-//    int index = 0;
-
-//    @Override
-//    public boolean isTriggered(History history) {
-//        int counter = 0;
-//        List<Integer> recent = history.last(sequence.length());
-//        for (int i = 0; i < recent.size(); i++) {
-//            verify(sequence.charAt(index));
-//            if (recent.get(i) == sequence.charAt(index)) {
-//                counter++;
-//            }
-//            index++;
-//        }
-//        return counter == sequence.length();
-//    }
-
-    private static boolean isDigit(char ch){
-        return ch >= '1' && ch <='6';
+    private static boolean isDigit(char ch) {
+        return ch >= '1' && ch <= '6';
     }
 
-    private static int interpretAsInt(char ch){
+    private static int interpretAsInt(char ch) {
         return Character.getNumericValue(ch) - Character.getNumericValue('0');
     }
 
-    private int expectedLength(){
+    private int expectedLength() {
         int length = 0;
-        for (int i=0;i<sequence.length();++i){
+        for (int i = 0; i < sequence.length(); ++i) {
             char ch = sequence.charAt(i);
             if (isDigit(ch) || ch == '*')
                 ++length;
@@ -72,8 +36,10 @@ public class StringTrigger implements Trigger {
     public boolean isTriggered(History history) {
         int expected = expectedLength();
         List<Integer> recent = history.last(expected);
+
         if (expected > recent.size())
             return false;
+
         int h = 0;
         int s = 0;
         while (h < recent.size() && s < sequence.length()) {
@@ -81,200 +47,21 @@ public class StringTrigger implements Trigger {
             Integer n = recent.get(h);
             if (isDigit(ch) && interpretAsInt(ch) != n)
                 return false;
-            if (ch == '!'){
+            if (ch == '!') {
                 ++s;
-                if (s < sequence.length()){
-                    char nextch =sequence.charAt(s);
+                if (s < sequence.length()) {
+                    char nextch = sequence.charAt(s);
                     if (isDigit(nextch) && interpretAsInt(nextch) == n)
                         return false;
-                }
-                else
+                } else
                     return false;
             }
             ++h;
             ++s;
-//            if (sequence.charAt(i) == '1') {
-//                if (recent.get(i) == 1) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-//            else if (sequence.charAt(i) == '2') {
-//                if (recent.get(i) == 2) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-//            else if (sequence.charAt(i) == '3') {
-//                if (recent.get(i) == 3) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-//            else if (sequence.charAt(i) == '4') {
-//                if (recent.get(i) == 4) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-//            else if (sequence.charAt(i) == '5') {
-//                if (recent.get(i) == 5) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-//            else if (sequence.charAt(i) == '6') {
-//                if (recent.get(i) == 6) {
-//                    return true;
-//                } else {
-//                    return false;
-//                }
-//            }
-
         }
         return h == recent.size() && s == sequence.length();
     }
-    // ta nie dziala
 
-    public boolean isTriggered3(History history) {
-        int counter = 0;
-        List<Integer> recent = history.last(sequence.length());
-
-        for (int k = 0; k < sequence.length(); k++) {
-
-            for (int i = 0; i < recent.size(); i++) {
-
-                if (sequence.charAt(k) == '1') {
-                    if (recent.get(i) == 1) {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-                if (sequence.charAt(k) == '2') {
-                    if (recent.get(i) == 2) {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-                if (sequence.charAt(k) == '3') {
-                    if (recent.get(i) == 3) {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-                if (sequence.charAt(k) == '4') {
-                    if (recent.get(i) == 4) {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-                if (sequence.charAt(k) == '5') {
-                    if (recent.get(i) == 5) {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-                if (sequence.charAt(k) == '6') {
-                    if (recent.get(i) == 6) {
-                        counter++;
-                    } else {
-                        break;
-                    }
-                }
-            }
-        }
-        return counter == sequence.length();
-    }
-
-    //ta dziala
-//    @Override
-//    public boolean isTriggered(History history) {
-//        int counter = 0;
-//        List<Integer> recent = history.last(sequence.length());
-//
-//        for (int i = 0; i < recent.size(); i++) {
-//            for (int k = 0; k < sequence.length(); k++) {
-//                if (recent.get(i) == 1) {
-//                    if (sequence.charAt(k) == '1') {
-//                        counter++;
-//                    } else {
-//                        break;
-//                    }
-//                    if (recent.get(i) == 2) {
-//                        if (sequence.charAt(k) == '2') ;
-//                        counter++;
-//                    } else {
-//                        break;
-//                    }
-//                    if (recent.get(i) == 3) {
-//                        if (sequence.charAt(k) == '3') ;
-//                        counter++;
-//                    } else {
-//                        break;
-//                    }
-//                    if (recent.get(i) == 4) {
-//                        if (sequence.charAt(k) == '4') ;
-//                        counter++;
-//                    } else {
-//                        break;
-//                    }
-//                    if (recent.get(i) == 5) {
-//                        if (sequence.charAt(k) == '5') ;
-//                        counter++;
-//                    } else {
-//                        break;
-//                    }
-//                    if (recent.get(i) == 6) {
-//                        if (sequence.charAt(k) == '6') ;
-//                        counter++;
-//                    } else {
-//                        break;
-//                    }
-//                }
-//            }
-//        }
-//        return counter == sequence.length();
-//    }
-
-//    @Override
-//    public boolean isTriggered(History history) {
-//        int counter = 0;
-//        List<Integer> recent = history.last(sequence.length());
-//        for (int i = 0; i < recent.size(); i++) {
-//            verify(sequence.charAt(index));
-//            if (recent.get(i) == sequence.charAt(index)) {
-//                counter++;
-//            }
-//            index++;
-//        }
-//        return counter == sequence.length();
-//    }
-
-    // @Override
-//    public boolean isTriggeredv2(History history) {
-//        int counter = 0;
-//        List<Integer> recent = history.last(sequence.length());
-//        for (int i = 0; i < recent.size(); i++) {
-//            for (int k = 0; k < sequence.length(); k++) {
-//                if (!numbers.contains(sequence.charAt(k)))
-//                    k++;
-//
-//                if (recent.get(i) == sequence.charAt(k))
-//                    counter++;
-//            }
-//        }
-//        return counter == sequence.length();
-//    }
 }
 
 
